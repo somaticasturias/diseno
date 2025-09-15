@@ -1,0 +1,89 @@
+    header {
+        display: flex;
+        align-items: center;    
+        justify-content: center; 
+        padding: 20px 20px;
+    }
+    header img {
+        width: 26%;
+    }
+    html, body {
+        overflow: auto !important;
+    }
+    main {
+        padding: 40px 20px;
+    }
+    .titulo-traye {
+        text-align: center;
+        font-size: 1.8rem;
+        color: #333;
+    }
+    .hablame {
+        text-align: center;
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    .intro-text {
+        color: #555;
+        font-size: 1.1rem;
+    }
+    .contacto ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;   
+    }
+    .contacto li {
+        margin-bottom: 1.2em; 
+    }
+    .contacto a {
+        text-decoration: none;
+        color: inherit;
+    }
+    p{
+        font-size: 1rem;
+    } 
+     /*  Tablets en modo retrato */
+@media (min-width: 800px) and (max-width: 1280px) and (orientation: portrait) {
+    header {
+        justify-content: space-between; 
+    }
+    header img {
+        width: 18%;
+    }
+    p {
+        font-size: 1.2rem;
+        margin-left: 20px;
+    }
+    .contacto ul {
+        font-size: 1.2rem;
+        margin-left: 20px;
+    }
+}
+/* Tablets en modo landscape */
+@media (min-width: 800px) and (max-width: 1280px) and (orientation: landscape) {
+    header {
+        justify-content: space-between; 
+    }
+    header img {
+        width: 18%;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+}
+/*  Escritorio */
+@media (min-width: 1281px) {
+    header {
+        justify-content: space-between; 
+    }
+    header img {
+        width: 18%;
+    }
+    p {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    
+
+}
