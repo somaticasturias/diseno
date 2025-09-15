@@ -1,2 +1,3 @@
-# diseno
-Demo de una web de diseño de muebles e interiorismo
+# diseño.
+Contacto: info@somaticasturias.es
+Web: https://www.somaticasturias.es/
