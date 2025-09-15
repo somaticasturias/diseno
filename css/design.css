@@ -1,0 +1,124 @@
+    header {
+        display: flex;
+        align-items: center;    
+        justify-content: center; 
+        padding: 20px 10px;
+    }
+    header img {
+        width: 60%;
+    }
+    html, body {
+        overflow: auto !important;
+    }
+    main {
+        padding: 40px 20px;
+    }
+    .titulo-traye {
+        text-align: center;
+        font-size: 1.8rem;
+        color: #333;
+    }
+    .hola {
+        text-align: center;
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    .sobremi {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    .sobremi img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 8px;  
+    }
+    .intro-text {
+        color: #555;
+        font-size: 1.1rem;
+    }
+    .titulo-proyec {
+        font-size: 2rem;
+        margin-bottom: 30px;
+        color: #555;
+        text-align: center;
+    }
+    .cajas {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+    .cajas2 {
+        display: flex;
+        gap: 20px;
+        background-color: #f1f1f1;
+        padding: 20px;
+        border-radius: 8px;
+        align-items: center;
+    }
+    .cajas2 img {
+        width: 6.25rem;
+        height: 6.25rem;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+    .cajas2 p {
+        color: #444;
+        font-size: 0.9rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+
+    /*  Tablets en modo retrato */
+@media (min-width: 800px) and (max-width: 1280px) and (orientation: portrait) {
+    header {
+        justify-content: space-between; 
+    }
+    header img {
+        width: 18%;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .cajas {
+        grid-template-columns: none;
+    }
+    .cajas2 p {
+        font-size: 1.2rem;
+    }
+    .cajas2 img{
+        width: 10.25rem;
+        height: 10.25rem;
+    }
+}
+/* Tablets en modo landscape */
+@media (min-width: 800px) and (max-width: 1280px) and (orientation: landscape) {
+    header {
+        justify-content: space-between; 
+    }
+    header img {
+        width: 18%;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+}
+/*  Escritorio */
+@media (min-width: 1281px) {
+    header {
+        justify-content: space-between; 
+    }
+    header img {
+        width: 18%;
+    }
+    p {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+}
