@@ -72,8 +72,8 @@
     }
 /*  Tablets en modo retrato */
 @media (min-width: 800px) and (max-width: 1280px) and (orientation: portrait) {
-    .menu-principal li a {    
-        font-size: 2.2rem;   
+    .menu-logo {    
+        font-size: 1.2rem;   
     }
     .menu-principal ul { 
         gap: 2rem;              
@@ -131,5 +131,6 @@
     }
     
    
+
 
 }
